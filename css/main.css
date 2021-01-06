@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: "Bebas Neue", cursive;
+  text-transform: uppercase;
+}
+
+p {
+  color: dimgray;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.main-area {
+  width: 80%;
+  height: 700px;
+  margin: 0 auto;
+  margin-bottom: 350px;
+}
+
+/* Navigation Section */
+#navigation {
+  margin: 20px 0;
+}
+
+#navigation ul {
+  float: right;
+  list-style: none;
+}
+
+#navigation li {
+  float: left;
+  padding: 20px;
+}
+
+/* Top & Med Level Section */
+.half-width {
+  float: left;
+  width: 40%;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+
+.highlight {
+  color: #ff8367;
+}
+
+.text-content {
+  padding: 100px 0;
+}
+
+.link-button {
+  border: none;
+  text-decoration: none;
+  padding: 10px 25px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-weight: 300;
+  color: white;
+  background-image: linear-gradient(180deg, lightsalmon, tomato);
+}
+
+/* Project Work Section */
+#project {
+  width: 100%;
+  height: 800px;
+  background-color: #f8f9fc;
+}
+
+#project h2 {
+  padding: 100px;
+  text-align: center;
+}
+
+.portfolio {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.project-work {
+  float: left;
+  width: 370px;
+  height: 374px;
+  margin-left: 5%;
+  border-radius: 18px;
+  background-color: white;
+}
+
+.contents {
+  margin-left: 5%;
+  padding: 10px;
+}
+
+.contents h3 {
+  font-size: 24px;
+  color: #363958;
+}
+
+.contents p {
+  font-size: 16px;
+  color: #6c6c6c;
+}
+
+/* Inquiry Section */
+#inquiry {
+  width: 900px;
+  height: 225px;
+  margin: 100px auto;
+  background-image: url("../images/inquiry.png");
+  background-size: contain;
+}
+
+#inquiry .inq-heading {
+  float: left;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-size: 64px;
+  padding: 80px 40px;
+}
+
+#inquiry .live-chat {
+  float: right;
+  margin: 94px 40px;
+}
+
+/* Stay Connected Section */
+.connected {
+  margin: 100px auto 140px auto;
+  width: 80%;
+}
+
+.text-area {
+  text-align: center;
+}
+
+.text-head {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: "Bebas Neue", cursive;
+  color: #696871;
+}
+
+.text-mail {
+  font-size: 36px;
+  text-transform: lowercase;
+  color: #363958;
+}
+
+.socials {
+  margin: 20px 600px;
+}
+
+.social-icon {
+  width: 36px;
+  height: 36px;
+  float: left;
+  margin-left: 22px;
+}
+
+/* Testimonials Section */
+#testimonials {
+  width: 100%;
+  height: 600px;
+  background-color: #f8f9fc;
+}
+
+#testimonials h2 {
+  padding: 40px;
+  text-align: center;
+}
+
+#testimonials .comments {
+  padding: 10px 20px 20px 20px;
+  margin-bottom: 30px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#testimonials half-width {
+  width: 40%;
+  float: left;
+}
+
+#testimonials .comments img {
+  float: left;
+  width: 100px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 30%;
+}
+
+/* Footer Section */
+footer {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
+}
